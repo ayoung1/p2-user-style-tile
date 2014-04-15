@@ -1,26 +1,84 @@
 /* Set Your Own Margin & Padding */
+body{
+	margin: 15px 0;
+	background: url("../img/cartographer.png");
+}
+
 h2, h3, p {
-	margin: 0;
+	margin: 20px;
+}
+
+img{
+	height: 750px;
+	border-radius: 10px;
 }
 
 /* Layout for Style Tile*/
 section {
-	margin: 20px 0;
+	margin: 50px 20px;
+	text-align: center;
+}
+
+p{
+	text-align: left;
 }
 
 .color-1,
 .color-2,
 .color-3,
+.color-4,
+.color-5,
 .pattern-1,
 .pattern-2,
 .pattern-3 {
-	border: 1px solid #000;
-	float: left;
-	margin: 0 10px;
-	height: 50px;
-	width: 50px;
+	border: 7px solid #999;
+	display: inline-block;
+	margin: 10px;
+	height: 75px;
+	width: 75px;
 }
 
+.pattern-1{
+	background: url("../img/purty_wood.png");
+}
+
+.pattern-2{
+	background: url("../img/cartographer.png");
+}
+
+.pattern-3{
+	background: url("../img/green_dust_scratch.png");
+}
+
+.color-1{
+	background: #a10022
+}
+
+.color-2{
+	background: #1693A5;
+}
+
+.color-3{
+	background: #666666;
+}
+
+.color-4{
+	background: #2DD00B;
+}
+
+.color-5{
+	background: #FD5F03;
+}
+
+.content{
+	background: beige;
+	padding: 15px;
+	border-radius: 15px;
+}
+
+.inset{
+	box-shadow: 0 0 24px #666 inset;
+}
 
 /* Show Grid */
 .showgrid {
