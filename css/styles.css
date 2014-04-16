@@ -4,15 +4,24 @@ body{
 	background: url("../img/cartographer.png");
 }
 
-h2, h3, p {
+h1, h2, h3, p {
 	margin: 20px;
 }
 
-img{
-	height: 750px;
-	border-radius: 10px;
+h1{
+	font-family: 'Miss Fajardose', cursive;
+	font-size: 4.5em;
 }
 
+h2{
+	font-family: 'Cinzel', serif;
+	font-size: 2.5em;
+}
+
+h3{
+	font-family: 'Rufina', serif;
+	font-size: 1.5em;
+}
 /* Layout for Style Tile*/
 section {
 	margin: 50px 20px;
@@ -21,6 +30,32 @@ section {
 
 p{
 	text-align: left;
+	font-family: 'Alegreya', serif;
+}
+
+a{
+	text-decoration:none;
+}
+
+.persona{
+	height: 750px;
+	border-radius: 10px;
+}
+
+.logo{
+	margin-left: 6em;
+}
+
+.green{
+	color: rgb(119,229,62);
+}
+
+.red{
+	color: #a10022;
+}
+
+.blue{
+	color: #1693A5;
 }
 
 .color-1,
@@ -31,11 +66,11 @@ p{
 .pattern-1,
 .pattern-2,
 .pattern-3 {
-	border: 7px solid #999;
+	border: 7px solid rgb(206,208,209);
 	display: inline-block;
 	margin: 10px;
-	height: 75px;
-	width: 75px;
+	height: 100px;
+	width: 100px;
 }
 
 .pattern-1{
@@ -51,7 +86,7 @@ p{
 }
 
 .color-1{
-	background: #a10022
+	background: #a10022;
 }
 
 .color-2{
@@ -59,7 +94,7 @@ p{
 }
 
 .color-3{
-	background: #666666;
+	background: rgb(89,88,90);
 }
 
 .color-4{
@@ -67,7 +102,7 @@ p{
 }
 
 .color-5{
-	background: #FD5F03;
+	background: rgb(119,229,62);
 }
 
 .content{
@@ -80,7 +115,33 @@ p{
 	box-shadow: 0 0 24px #666 inset;
 }
 
-/* Show Grid */
-.showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
+#link,
+#visited{
+	display:inline-block;
+	border:1px solid #a10022;
+	margin: 0 1em;
+	padding: .5em 1.5em;
+	
+	transition: border-radius 1s;
+}
+
+#link a{
+	transition:color 1s;
+}
+
+#link:hover a{
+	color: rgb(119,229,62);
+}
+
+#link:hover,
+#visited:hover{
+	border-radius: 25px;
+}
+
+#link a{
+	color:#1693A5;
+}
+
+#visited a{
+	color:rgb(119,229,62);
 }
