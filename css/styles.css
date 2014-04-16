@@ -106,13 +106,13 @@ a{
 }
 
 .content{
-	background: beige;
+	background: #fff;
 	padding: 15px;
 	border-radius: 15px;
 }
 
 .inset{
-	box-shadow: 0 0 24px #666 inset;
+	box-shadow: 2px 2px 1em #000 inset;
 }
 
 #link,
