@@ -121,21 +121,6 @@ a{
 	border:1px solid #a10022;
 	margin: 0 1em;
 	padding: .5em 1.5em;
-	
-	transition: border-radius 1s;
-}
-
-#link a{
-	transition:color 1s;
-}
-
-#link:hover a{
-	color: rgb(119,229,62);
-}
-
-#link:hover,
-#visited:hover{
-	border-radius: 25px;
 }
 
 #link a{
